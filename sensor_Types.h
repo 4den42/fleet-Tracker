@@ -23,5 +23,10 @@ typedef struct {
 	float speed;
 }	vehicleData;
 
+typedef struct {
+	float temperature;
+	float humidity;
+	int valid;
+}	humidityData;
 
 #endif

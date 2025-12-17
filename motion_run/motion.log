@@ -1,0 +1,37 @@
+[0:motion] [NTC] [ALL] [Dec 17 13:50:48] motion_startup: Motion 4.7.0 Started
+[0:motion] [NTC] [ALL] [Dec 17 13:50:48] motion_startup: Using default log type (ALL)
+[0:motion] [NTC] [ALL] [Dec 17 13:50:48] motion_startup: Using log type (ALL) log level (NTC)
+[0:motion] [NTC] [ALL] [Dec 17 13:50:48] pid_write: Created process id file /home/Aden42/Projects/fleetStats/motion_run/motion.pid. Process ID is 1911
+[0:motion] [NTC] [STR] [Dec 17 13:50:48] webu_start_strm: Starting all camera streams on port 8081
+[0:motion] [NTC] [STR] [Dec 17 13:50:48] webu_strm_ntc: Started camera 0 stream on port 8081
+[0:motion] [NTC] [ENC] [Dec 17 13:50:48] ffmpeg_global_init: ffmpeg libavcodec version 61.19.101 libavformat version 61.7.100
+[0:motion] [NTC] [ALL] [Dec 17 13:50:48] translate_init: Language: English
+[0:motion] [NTC] [ALL] [Dec 17 13:50:48] motion_start_thread: Camera ID: 0 is from /home/Aden42/Projects/fleetStats/motion.conf
+[0:motion] [NTC] [ALL] [Dec 17 13:50:48] motion_start_thread: Camera ID: 0 Camera Name: (null) Device: /dev/video0
+[0:motion] [NTC] [ALL] [Dec 17 13:50:48] main: Waiting for threads to finish, pid: 1911
+[1:ml1] [NTC] [ALL] [Dec 17 13:50:48] motion_init: Camera 0 started: motion detection Enabled
+[1:ml1] [NTC] [VID] [Dec 17 13:50:48] vid_start: Opening V4L2 device
+[1:ml1] [NTC] [VID] [Dec 17 13:50:48] v4l2_device_open: Using videodevice /dev/video0 and input -1
+[1:ml1] [NTC] [VID] [Dec 17 13:50:48] v4l2_device_capability: - VIDEO_CAPTURE
+[1:ml1] [NTC] [VID] [Dec 17 13:50:48] v4l2_device_capability: - STREAMING
+[1:ml1] [NTC] [VID] [Dec 17 13:50:48] v4l2_input_select: Name = "Camera 1"- CAMERA
+[1:ml1] [NTC] [VID] [Dec 17 13:50:48] v4l2_norm_select: Device does not support specifying PAL/NTSC norm
+[1:ml1] [NTC] [VID] [Dec 17 13:50:48] v4l2_pixfmt_try: Unable to use YU12 (640x480)
+[1:ml1] [NTC] [VID] [Dec 17 13:50:48] v4l2_pixfmt_select: Configuration palette index 17 (YU12) for 640x480 doesn't work.
+[1:ml1] [NTC] [VID] [Dec 17 13:50:48] v4l2_pixfmt_select: Supported palettes:
+[1:ml1] [NTC] [VID] [Dec 17 13:50:48] v4l2_pixfmt_select: (0) MJPG (Motion-JPEG)
+[1:ml1] [NTC] [VID] [Dec 17 13:50:48] v4l2_pixfmt_select: (1) YUYV (YUYV 4:2:2)
+[1:ml1] [NTC] [VID] [Dec 17 13:50:48] v4l2_pixfmt_try: Testing palette YUYV (640x480)
+[1:ml1] [NTC] [VID] [Dec 17 13:50:48] v4l2_pixfmt_set: Using palette YUYV (640x480)
+[1:ml1] [NTC] [VID] [Dec 17 13:50:48] v4l2_pixfmt_select: Selected palette YUYV
+[1:ml1] [NTC] [ALL] [Dec 17 13:50:49] image_ring_resize: Resizing pre_capture buffer to 1 items
+[1:ml1] [NTC] [ALL] [Dec 17 13:51:00] motion_detected: Motion detected - starting event 1.
+[0:motion] [NTC] [ALL] [Dec 17 13:51:17] sig_handler: Received signal 2.
+[1:ml1] [NTC] [ALL] [Dec 17 13:51:17] mlp_actions: End of event 1
+[1:ml1] [NTC] [ALL] [Dec 17 13:51:17] motion_loop: Thread exiting
+[1:ml1] [NTC] [VID] [Dec 17 13:51:17] vid_close: Cleaning up V4L2 device
+[1:ml1] [NTC] [VID] [Dec 17 13:51:17] v4l2_cleanup: Closing video device /dev/video0
+[0:motion] [NTC] [ALL] [Dec 17 13:51:17] main: Threads finished
+[0:motion] [NTC] [ALL] [Dec 17 13:51:17] main: Motion terminating
+[0:motion] [NTC] [ALL] [Dec 17 13:51:17] motion_remove_pid: Removed process id file (pid file).
+[0:motion] [NTC] [ALL] [Dec 17 13:51:17] motion_remove_pid: Closing logfile (/home/Aden42/Projects/fleetStats/motion_run/motion.log).
