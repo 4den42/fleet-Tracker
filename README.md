@@ -2,9 +2,12 @@ Fleet tracking setup powered by a raspberry pi and its sensors.
 
 Current Features:
 Tailscale for remote access.
-Pi cooling
+Pi cooling.
+Video stream accessible via web browser using Motion
+Pi condition monitoring 
 
 Future Features:
-Gyroscopic, temperature, speed, acceleration, and ecu readings.
-Power source, likely a rechargeable drill battery
-Camera
+Gyroscopic, speed, acceleration, and ecu readings of a vehicle.
+Power source, likely a rechargeable drill battery for cost.
+Humidity sensor, aviation applicable
+
