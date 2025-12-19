@@ -6,7 +6,7 @@
 #include <gpiod.h>
 #include "sensor_Types.h"  // your header
 
-#define DHT_PIN 4       // GPIO pin
+#define DHT_PIN 17       // GPIO pin
 #define MAX_TIMINGS 85
 
 humidityData readDHT22(struct gpiod_chip *chip, unsigned int line_num) {
